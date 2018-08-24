@@ -7,7 +7,7 @@ pipeline {
                 sh """ 
                       echo "Unit test"
                       date
-                      cal
+                      
 
                       echo "Unit Test" > UnitTest.txt
                       date >> UnitTest.txt 
